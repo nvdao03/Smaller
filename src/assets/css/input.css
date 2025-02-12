@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ============ Custom CSS ============ */
+.ct-container {
+  @apply mx-auto max-w-[1320px] px-[30px] xl-max:max-w-[1170px] lg-max:max-w-[960px] lg-max:px-[15px] md-max:max-w-[720px] md-max:px-[15px] sm-max:max-w-[540px] sm-max:px-[15px];
+}
+
+/* ============ Page Home ============ */
+/* ---- Header ---- */
+.ct-navbar-item-link {
+  @apply relative cursor-pointer px-[18px] py-3 font-normal leading-4 after:absolute after:bottom-0 after:left-[25%] after:ml-auto after:mr-auto after:h-[1.5px] after:w-0 after:-translate-x-[50%] after:bg-[#000] after:duration-500 after:ease-in-out hover:after:left-[50%] hover:after:w-[calc(100%-36px)] lg-max:px-3;
+}
+
+.ct-navbar-item-link-mobile {
+  @apply relative block w-full cursor-pointer py-4 font-semibold leading-4 hover:underline;
+}
+
+.ct-mobile-header-show {
+  @apply animate-overlayShow visible block md-max:fixed md-max:inset-0 md-max:z-[2] md-max:block md-max:bg-gray-300 md-max:bg-opacity-50;
+}
+
+.ct-mobile-navbar-show {
+  @apply animate-navbarShow translate-x-0;
+}
+
+.ct-mobile-navbar-hidden {
+  @apply animate-navbarHide translate-x-full;
+}

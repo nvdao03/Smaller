@@ -141,3 +141,10 @@ textarea {
 ::before {
   box-sizing: border-box;
 }
+
+body {
+  position: relative;
+  font-family: "Poppins";
+  font-size: 16px;
+  color: #2d2d2d;
+}

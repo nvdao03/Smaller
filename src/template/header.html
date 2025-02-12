@@ -1,0 +1,95 @@
+<!-- PC Header -->
+<header
+  id="header"
+  class="fixed z-[1] w-full bg-[#F2EDE6] py-8 md-max:relative"
+>
+  <div class="ct-container">
+    <nav class="flex flex-row items-center justify-between">
+      <!-- Logo -->
+      <a href="/" class="">
+        <img src="./assets/imgs/Logo.svg" alt="logo" />
+      </a>
+
+      <!-- Navbar -->
+      <ul class="flex flex-row items-center md-max:hidden">
+        <li>
+          <a href="#!" class="ct-navbar-item-link">Product</a>
+        </li>
+        <li>
+          <a href="#!" class="ct-navbar-item-link">Pricing</a>
+        </li>
+        <li>
+          <a href="#!" class="ct-navbar-item-link">Contact us</a>
+        </li>
+        <li>
+          <a href="#!" class="ct-navbar-item-link">Blog</a>
+        </li>
+        <li>
+          <a href="#!" class="ct-navbar-item-link">About Us</a>
+        </li>
+      </ul>
+
+      <!-- Action -->
+      <div
+        class="flex flex-row items-center gap-x-7 lg-max:gap-x-5 md-max:hidden"
+      >
+        <a
+          href="#!"
+          class="text-base font-normal leading-4 duration-500 ease-in-out hover:underline"
+          >Login</a
+        >
+        <button
+          class="rounded-[40px] border bg-[#2D2D2D] px-[30px] py-[18px] font-normal leading-[18px] text-[#F2EDE6] duration-300 ease-in-out hover:border-[#2D2D2D] hover:bg-transparent hover:text-[#2D2D2D] lg-max:px-5 lg-max:py-4"
+        >
+          Book a Demo
+        </button>
+      </div>
+
+      <!-- More toggle -->
+      <button id="more-toggle" class="hidden h-8 w-8 md-max:block">
+        <img src="./assets/icon/toggle.svg" alt="" />
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- Tablet/Mobile header -->
+<header id="headerMobile" class="invisible">
+  <nav
+    id="navbarMobile"
+    class="fixed right-0 z-50 h-[100vh] w-[60%] translate-x-full flex-col rounded-l-2xl bg-white px-[30px] pt-[30px] md-max:z-[5] sm-max:w-[75%]"
+  >
+    <button id="arrow-mobile" class="h-5 w-5">
+      <img src="./assets/icon/arrow-left.svg" alt="" />
+    </button>
+
+    <ul class="mt-5 border-b border-solid border-gray-300">
+      <li>
+        <a href="#!" class="ct-navbar-item-link-mobile !pt-0">Product</a>
+      </li>
+      <li>
+        <a href="#!" class="ct-navbar-item-link-mobile">Pricing</a>
+      </li>
+      <li>
+        <a href="#!" class="ct-navbar-item-link-mobile">Contact us</a>
+      </li>
+      <li>
+        <a href="#!" class="ct-navbar-item-link-mobile">Blog</a>
+      </li>
+      <li>
+        <a href="#!" class="ct-navbar-item-link-mobile border-solid"
+          >About Us</a
+        >
+      </li>
+    </ul>
+
+    <div class="">
+      <a href="#!" class="block pb-2 pt-4 font-semibold hover:underline"
+        >Login</a
+      >
+      <button class="block py-2 font-semibold hover:underline">
+        Book a Demo
+      </button>
+    </div>
+  </nav>
+</header>
