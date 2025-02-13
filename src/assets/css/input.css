@@ -18,13 +18,13 @@
 }
 
 .ct-mobile-header-show {
-  @apply animate-overlayShow visible block md-max:fixed md-max:inset-0 md-max:z-[2] md-max:block md-max:bg-gray-300 md-max:bg-opacity-50;
+  @apply visible block animate-overlayShow md-max:fixed md-max:inset-0 md-max:z-[5] md-max:block md-max:bg-gray-300 md-max:bg-opacity-50;
 }
 
 .ct-mobile-navbar-show {
-  @apply animate-navbarShow translate-x-0;
+  @apply translate-x-0 animate-navbarShow;
 }
 
 .ct-mobile-navbar-hidden {
-  @apply animate-navbarHide translate-x-full;
+  @apply translate-x-full animate-navbarHide;
 }
