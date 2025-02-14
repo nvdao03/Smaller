@@ -4,7 +4,7 @@
 
 /* ============ Custom CSS ============ */
 .ct-container {
-  @apply mx-auto max-w-[1320px] px-[30px] xl-max:max-w-[1170px] lg-max:max-w-[960px] lg-max:px-[15px] md-max:max-w-[720px] md-max:px-[15px] sm-max:max-w-[540px] sm-max:px-[15px];
+  @apply mx-auto max-w-[1320px] px-[30px] xl-max:max-w-[1170px] lg-max:max-w-[960px] lg-max:px-[30px] md-max:max-w-[720px] md-max:px-[30px] sm-max:max-w-[540px] sm-max:px-[15px];
 }
 
 /* ============ Page Home ============ */
