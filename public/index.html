@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./assets/css/output.css" />
   </head>
   <body>
-    <div id="header"></div>
+    <div id="header" class="md-max:fixed md-max:z-[3] md-max:w-full"></div>
 
-    <main class="h-[5000px]">
+    <main class="h-[5000px] md-max:pt-[64px]">
       <!-- Online catalog -->
       <section
         class="bg-[#F2EDE6] pb-[90px] pt-[126px] md-max:pb-[41px] md-max:pt-[10px]"
@@ -57,32 +57,32 @@
               <div class="text-center">
                 <img
                   class="absolute bottom-0 right-0 z-[4] sm-max:hidden"
-                  src="./assets/imgs/home/sidebar-bg.svg"
+                  src="./assets/imgs/home/sidebar/sidebar-bg.svg"
                   alt=""
                 />
                 <img
                   class="absolute right-[100px] top-0 z-[2] sm-max:hidden"
-                  src="./assets/imgs/home/sidebar-img.svg"
+                  src="./assets/imgs/home/sidebar/sidebar-img.svg"
                   alt=""
                 />
                 <img
                   class="absolute right-[520px] top-[100px] z-[3] sm-max:hidden"
-                  src="./assets/imgs/home/sidebar-decor.svg "
+                  src="./assets/imgs/home/sidebar/sidebar-decor.svg "
                   alt=""
                 />
                 <img
                   class="absolute bottom-0 left-[27px] z-[2] hidden sm-max:block"
-                  src="./assets/imgs/home/sidebar-bg-mobile.svg"
+                  src="./assets/imgs/home/sidebar/sidebar-bg-mobile.svg"
                   alt=""
                 />
                 <img
                   class="absolute left-[27px] hidden sm-max:block"
-                  src="./assets/imgs/home/sidebar-img-mobile.svg"
+                  src="./assets/imgs/home/sidebar/sidebar-img-mobile.svg"
                   alt=""
                 />
                 <img
                   class="absolute left-[0] top-[54px] hidden sm-max:block"
-                  src="./assets/imgs/home/sidebar-decor-mobile.svg"
+                  src="./assets/imgs/home/sidebar/sidebar-decor-mobile.svg"
                   alt=""
                 />
               </div>
@@ -186,7 +186,7 @@
               <div class="md-max:order-2 md-max:mt-[30px]">
                 <img
                   class="md-max:w-full"
-                  src="./assets/imgs/home/card-one.svg"
+                  src="./assets/imgs/home/work/card-one.svg"
                   alt=""
                 />
               </div>
@@ -270,7 +270,7 @@
               <div class="ml-auto md-max:order-2 md-max:ml-0 md-max:mt-[30px]">
                 <img
                   class="md-max:w-full"
-                  src="./assets/imgs/home/card-two.svg"
+                  src="./assets/imgs/home/work/card-two.svg"
                   alt="Drag and Drop catalog management"
                 />
               </div>
@@ -282,7 +282,7 @@
               <div class="md-max:order-2 md-max:mt-[30px]">
                 <img
                   class="md-max:w-full"
-                  src="./assets/imgs/home/card-three.svg"
+                  src="./assets/imgs/home/work/card-three.svg"
                   alt=""
                 />
               </div>
@@ -371,7 +371,7 @@
               <div class="md-max:mt-[30px]">
                 <img
                   class="md-max:w-full"
-                  src="./assets/imgs/home/card-four.svg"
+                  src="./assets/imgs/home/work/card-four.svg"
                   alt=""
                 />
               </div>
@@ -383,7 +383,7 @@
               <div class="md-max:order-2 md-max:mt-[30px]">
                 <img
                   class="md-max:w-full"
-                  src="./assets/imgs/home/card-five.svg"
+                  src="./assets/imgs/home/work/card-five.svg"
                   alt="Create rules of low-stock and out-of-stock products"
                 />
               </div>
@@ -429,6 +429,171 @@
                   </li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefits -->
+      <section class="bg-[#005461] py-[70px] text-[#FFF] sm-max:pt-0">
+        <div class="ct-container">
+          <h2
+            class="text-center text-[45px] font-medium leading-[54px] text-[#FFF] sm-max:text-[30px] sm-max:leading-[38px]"
+          >
+            Benefits
+          </h2>
+          <div
+            class="mt-[100px] grid grid-cols-3 md-max:grid-cols-2 sm-max:mt-[30px] sm-max:grid-cols-1"
+          >
+            <!-- Item 1 -->
+            <div
+              class="border-b border-solid border-gray-400 pb-[60px] pr-[30px] md-max:border-b-[0px] sm-max:pb-0 sm-max:pr-0"
+            >
+              <div
+                class="h-[70px] w-[70px] rounded-xl bg-[#018294] px-[11px] py-[11px]"
+              >
+                <img
+                  class="block h-[48px] w-[48px]"
+                  src="./assets/imgs/home/benefits/compatibility.svg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="mb-[14px] mt-[30px] text-[20px] font-medium leading-[24px]"
+              >
+                Compatibility
+              </h3>
+              <p
+                class="text-[rgba(255, 255, 255, 0.80)] font-normal leading-[26px] opacity-80 sm-max:w-[90%]"
+              >
+                Sortler supports all popular eCommerce solutions, including
+                Magento, Shopify, WooCommerce, BigCommerce.
+              </p>
+            </div>
+            <!-- Item 2 -->
+            <div
+              class="border-b border-l border-solid border-gray-400 px-[30px] pb-[60px] md-max:border-b-[0px] sm-max:border-l-[0px] sm-max:px-0 sm-max:pb-0 sm-max:pt-[30px]"
+            >
+              <div
+                class="h-[70px] w-[70px] rounded-xl bg-[#018294] px-[11px] py-[11px]"
+              >
+                <img
+                  class="block h-[48px] w-[48px]"
+                  src="./assets/imgs/home/benefits/simplified.svg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="mb-[14px] mt-[30px] text-[20px] font-medium leading-[24px]"
+              >
+                Simplified merchandising
+              </h3>
+              <p
+                class="text-[rgba(255, 255, 255, 0.80)] font-normal leading-[26px] opacity-80 sm-max:w-[90%]"
+              >
+                Your employees, work faster and the less time they spend on
+                online visual merchandising tasks.
+              </p>
+            </div>
+            <!-- Item 3 -->
+            <div
+              class="border-b border-l border-solid border-gray-400 px-[30px] pb-[60px] md-max:border-b-0 md-max:border-l-[0px] md-max:border-r md-max:pb-0 md-max:pl-0 sm-max:border-r-0 sm-max:pb-0 sm-max:pr-0 sm-max:pt-[30px]"
+            >
+              <div
+                class="h-[70px] w-[70px] rounded-xl bg-[#018294] px-[11px] py-[11px]"
+              >
+                <img
+                  class="block h-[48px] w-[48px]"
+                  src="./assets/imgs/home/benefits/coding.svg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="mb-[14px] mt-[30px] text-[20px] font-medium leading-[24px]"
+              >
+                No Coding Required
+              </h3>
+              <p
+                class="text-[rgba(255, 255, 255, 0.80)] font-normal leading-[26px] opacity-80 sm-max:w-[90%]"
+              >
+                Everything is designed in such a way as to put the smart sorting
+                system into operation without delay.
+              </p>
+            </div>
+            <!-- Item 4 -->
+            <div
+              class="border-r border-solid border-gray-400 pr-[30px] pt-[60px] md-max:border-r-[0px] md-max:pb-0 md-max:pl-[30px] md-max:pt-[0px] sm-max:px-0 sm-max:pt-[30px]"
+            >
+              <div
+                class="h-[70px] w-[70px] rounded-xl bg-[#018294] px-[11px] py-[11px]"
+              >
+                <img
+                  class="block h-[48px] w-[48px]"
+                  src="./assets/imgs/home/benefits/built.svg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="mb-[14px] mt-[30px] text-[20px] font-medium leading-[24px]"
+              >
+                Built-in emulator
+              </h3>
+              <p
+                class="text-[rgba(255, 255, 255, 0.80)] font-normal leading-[26px] opacity-80 sm-max:w-[90%]"
+              >
+                Sortler provides you with a special emulator that shows all
+                changes before they are applied to your live website.
+              </p>
+            </div>
+            <!-- Item 5 -->
+            <div
+              class="border-r border-solid border-gray-400 px-[30px] pt-[60px] md-max:pl-[0px] sm-max:border-r-0 sm-max:pr-0 sm-max:pt-[30px]"
+            >
+              <div
+                class="h-[70px] w-[70px] rounded-xl bg-[#018294] px-[11px] py-[11px]"
+              >
+                <img
+                  class="block h-[48px] w-[48px]"
+                  src="./assets/imgs/home/benefits/backup.svg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="mb-[14px] mt-[30px] text-[20px] font-medium leading-[24px]"
+              >
+                Backup feature
+              </h3>
+              <p
+                class="text-[rgba(255, 255, 255, 0.80)] font-normal leading-[26px] opacity-80 sm-max:w-[90%]"
+              >
+                Our visual product sorting tool has a backup feature to undo the
+                changes made. So you actually risk nothing.
+              </p>
+            </div>
+            <!-- Item 6 -->
+            <div
+              class="px-[30px] pt-[60px] sm-max:pl-0 sm-max:pr-0 sm-max:pt-[30px]"
+            >
+              <div
+                class="h-[70px] w-[70px] rounded-xl bg-[#018294] px-[11px] py-[11px]"
+              >
+                <img
+                  class="block h-[48px] w-[48px]"
+                  src="./assets/imgs/home/benefits/round.svg"
+                  alt=""
+                />
+              </div>
+              <h3
+                class="mb-[14px] mt-[30px] text-[20px] font-medium leading-[24px]"
+              >
+                Round-the-clock support
+              </h3>
+              <p
+                class="text-[rgba(255, 255, 255, 0.80)] font-normal leading-[26px] opacity-80 sm-max:w-[90%]"
+              >
+                Being in touch 24/7, we're ready to answer your questions in
+                real-time, whenever you need.
+              </p>
             </div>
           </div>
         </div>
