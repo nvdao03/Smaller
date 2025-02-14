@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/output.css --watch",
-    "dev": "live-server ./src"
+    "dev": "live-server ./public"
   },
   "author": "",
   "license": "ISC",
